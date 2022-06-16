@@ -9,6 +9,9 @@ const Results = () => {
   const { results, isLoading, getResults, searchTerm } = useStateContext();
   const location = useLocation();
 
+  useEffect(() => {
+    getResults("/search/q=JavaScript Mastery&num=40");
+  }, []);
 
   if (isLoading) return <Loading />;
 
