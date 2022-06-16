@@ -46,11 +46,6 @@ const Results = () => {
     default:
       return "ERROR";
   }
-  // return (
-  // <div>
-  //   Results
-  //   </div>
-  // )
 };
 
 export default Results;
