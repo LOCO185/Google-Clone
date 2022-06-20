@@ -10,7 +10,6 @@ import { NavLink } from "react-router-dom";
 
 export const Links = () => (
   <div className="flex sm:justify-around justify-between items-center mt-4">
-    Links
     {/* {links.map(({ url, text }) => (
       <NavLink
         to={url}
