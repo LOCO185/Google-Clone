@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { useDebounce } from "use-debounce";
 
-import { useStateContext } from "../contexts/StateContextProvider";
+import { useStateContext } from "../contexts/ResultContextProvider";
 import { Links } from "./Links";
 
 export const Search = () => {
